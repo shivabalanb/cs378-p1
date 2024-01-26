@@ -1,3 +1,98 @@
-body {
-    color: hotpink;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1; /* Adjust as needed */
 }
+
+body {
+  color: navy;
+}
+
+.content {
+  /* background-color: aqua; */
+  margin: 32px;
+  padding: 32px 0px;
+}
+
+.header {
+  width: full;
+  /* background-color: beige; */
+  display: flex;
+  justify-content: center;
+  padding: 12px 0px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.heading {
+  width: full;
+  /* background-color: beige; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 0px;
+  text-align: center;
+}
+
+.decorative {
+  color: red;
+  font-family: cursive;
+}
+
+.menu {
+  width: full;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.item {
+
+width: 350px;
+  background-color: beige;
+  border-radius: 12px;
+  display: flex;
+  gap: 12px;
+  padding: 20px 8px 12px 12px;
+  align-items: center;
+}
+
+.item-title {
+    font-weight:bold;
+  /* background-color: aqua; */
+}
+
+.item-img {
+  width: 100px;
+  height: fit-content;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.item-options{
+    width: fit-content;
+    display: flex;
+    gap: 12px;
+    align-items:start;
+    /* background-color:coral; */
+    
+}
+
+.addBtn{
+    padding: 4px 8px;
+    border-radius: 12px;
+    background-color: red;
+    color:white;
+    width: fit-content;
+}
+
+.price{
+    margin-top: 6px;
+}
+
+
